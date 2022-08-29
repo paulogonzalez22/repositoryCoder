@@ -172,7 +172,7 @@ ul {
 	transition: all 0.25seg ease;
 }
 .card:hover{
-    transform: translate(-15px);
+    transform: translateX(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 .card img{
