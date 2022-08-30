@@ -50,6 +50,12 @@ ul {
 .eslogan{
 	grid-area: eslogan;
 }
+h1.textEslogan.aos-init{
+	opacity: 1;
+	transform: translateZ(0);
+	transition-timing-function: ease;
+	transition-duration: .4s;
+}
 .textEslogan{
 	text-align: center;
 	font-family: "apple chancery";
