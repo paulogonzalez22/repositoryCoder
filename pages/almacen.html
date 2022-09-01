@@ -4,18 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
 	<title>El Almacen Boutique</title>
 </head>
 <body>
-	<div class="almacenContainer">
-	 <header>
-	 	<div class="logo">
+	<div class="container-fluid">
+	 <header class="row">
+	 	<div class="col-12 col-lg-12">
 	 		<a href="../index.html">
 	 		<img class="logo" src="../assets/img/logo.png" alt="logo pagina web">
 	 		</a>
 	 	</div>
-	 	<nav>
+        <div class="col-12 col-lg-12">
+	 	<nav class>
 	 		<ul>
 	 			<li>
 	 				<a href="../index.html">INICIO</a>
@@ -34,105 +37,150 @@
 	 			</li>
 	 		</ul>
 	 	</nav>
+     </div>
 	 </header>
 	 <main>
-	 	   <div><h2 class="titulosh2">PRODUCTOS SELECCIONADOS</h2></div>
-	 	   <div class="cardContainer">	
-	 	    <div class="card">
-                <img src="../assets/img/salamechacra.jpg" alt="salamechacra">
-                <h4><b>Salame Chacra Tandil</b></h4>
-                <p>Peso: 100gr Precio: $190</p>
+	 	   <div class="row">
+               <div class="col-12 col-lg-12"><h2 class="titulosh2">PRODUCTOS SELECCIONADOS</h2>
+               </div>
             </div>
-            <div class="card">
-                <img src="../assets/img/pataahumada.jpg" alt="pataahumada">
-                <h4><b>Pata Ahumada Las Dinas Tandil</b></h4>
-                <p>Peso: 100gr Precio: $300</p>
-            </div>
-            <div class="card">
-                <img src="../assets/img/asadito.jpg" alt="asadito">
-                <h4><b>Asadito Argentino Las Dinas</b></h4>
-                <p>Peso: 100gr Precio: $460</p>
+        <div class="row" class="cardContainer">
+	 	        <div class="col-12 col-lg-4">	
+	 	            <div class="card">
+                    <img src="../assets/img/salamechacra.jpg" alt="salamechacra">
+                    <h4><b>Salame Chacra Tandil</b></h4>
+                    <p>Peso: 100gr Precio: $190</p>
+                    </div>
                 </div>
-            <div class="card">
+                <div class="col-12 col-lg-4">
+                    <div class="card">
+                    <img src="../assets/img/pataahumada.jpg" alt="pataahumada">
+                    <h4><b>Pata Ahumada Las Dinas Tandil</b></h4>
+                     <p>Peso: 100gr Precio: $300</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card">
+                    <img src="../assets/img/asadito.jpg" alt="asadito">
+                    <h4><b>Asadito Argentino Las Dinas</b></h4>
+                    <p>Peso: 100gr Precio: $460</p>
+                    </div>
+                </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
                 <img src="../assets/img/mortadela.jpg" alt="mortadela">
                 <h4><b>Mortadela con Nuez Las Dinas</b></h4>
                 <p>Peso: 100gr Precio: $200</p>
                 </div>
             </div>
-	 	     <div><h2 class="titulosh2">QUESOS SELECCIONADOS</h2></div>
-	 	     <div class="cardContainer">
-	 	     <div class="card">
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-12">
+	 	         <h2 class="titulosh2">QUESOS SELECCIONADOS</h2>
+            </div>     
+        </div>
+        <div class="row">
+	 	    <div class="col-12 col-lg-4" class="cardContainer">
+	 	        <div class="card">
                 <img src="../assets/img/goudanatural.jpg" alt="goudanatural">
                 <h4><b>Queso Gouda Natural Inza</b></h4>
                 <p>Peso: 100gr Precio: $180</p>
+                </div>
             </div>
-            <div class="card">
+            <div class="col-12 col-lg-4">
+                <div class="card">
                 <img src="../assets/img/oregano.jpg" alt="goudaoregano">
                 <h4><b>Queso Gouda Oregano y Albahaca Inza</b></h4>
                 <p>Peso: 100gr Precio: $190</p>
-            </div>
-            <div class="card">
+                </div>
+            </div>    
+            <div class="col-12 col-lg-4">
+                <div class="card">
                 <img src="../assets/img/fontina.jpg" alt="fontina">
                 <h4><b>Queso Fontina Inza</b></h4>
                 <p>Peso: 100gr Precio: $220</p>
+                </div>
             </div>
+            <div class="col-12 col-lg-4">
             <div class="card">
                 <img src="../assets/img/reggia.jpg" alt="reggianito">
                 <h4><b>Reggianito Inza</b></h4>
                 <p>Peso: 100gr Precio: $290</p>
             </div>
+        </div>
+            <div class="col-12 col-lg-12">
+	 		<div class="row">
+                <h2 class="titulosh2">CONSERVAS</h2>
             </div>
-	 		<div><h2 class="titulosh2">CONSERVAS</h2></div>
-	 		<div class="cardContainer">
-	 	    <div class="card">
+        <div class="row">
+	 		<div class="col-12 col-lg-4" class="cardContainer">
+	 	        <div class="card">
                 <img src="../assets/img/berenjenas.jpg" alt="Berenjenas">
                 <h4><b>Berenjenas en escabeche Filomena</b></h4>
                 <p>Peso: 360gr Precio: $730</p>
-             </div>
-             <div class="card">
+                </div>
+            </div>  
+            <div class="col-12 col-lg-4"> 
+                <div class="card">
                 <img src="../assets/img/morrones.jpg" alt="goudanatural">
                 <h4><b>Morrones en aceite Filomena</b></h4>
                 <p>Peso: 360gr Precio: $730</p>
-             </div>
-            <div class="card">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
                 <img src="../assets/img/alcauciles.jpg" alt="alcauciles">
                 <h4><b>Alcauciles en aceite Filomena</b></h4>
                 <p>Peso: 360gr Precio: $820</p>
-             </div>
-	 		 <div class="card">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
                 <img src="../assets/img/champinones.jpg" alt="champinones">
                 <h4><b>Champiñones saborizados Filomena</b></h4>
                 <p>Peso: 360gr Precio: $870</p>
-             </div>
-             </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-12">
 	 	    <h2 class="titulosh2">VINOS DE AUTOR</h2>
-	 	    <div class="cardContainer">
-	 	     <div class="card">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4" class="cardContainer">
+	 	        <div class="card">
                 <img src="../assets/img/tintosauces.jpg" alt="Tintodelossauces">
                 <h4><b>Tinto de los Sauces</b></h4>
                 <p>750cc Precio: $1500</p>
-             </div>
-	 	     <div class="card">
+                </div>
+            </div>   
+            <div class="col-12 col-lg-4"> 
+	 	        <div class="card">
                 <img src="../assets/img/malbecprimero.jpg" alt="malbecprimero">
                 <h4><b>Malbec Primero Pielihueso</b></h4>
                 <p>750cc Precio: $2000</p>
-             </div>
-	 		<div class="card">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+	 		    <div class="card">
                 <img src="../assets/img/pintoverdot.jpg" alt="pintoverdot">
                 <h4><b>Pinto Verdot Pielihueso</b></h4>
                 <p>750cc Precio: $2900</p>
-             </div>
-	     </div>
+                </div>
+	         </div>
+        </div>
 	 	<hr>
      </main>
-     <footer>
-	 	    <div class="footer">
+     <footer class="row">
+	 	    <div class="col-12 col-lg-12">
 	 	          <a class="icono" href="https://instagram.com/olegarioalmacenboutique?igshid=YmMyMTA2M2Y=" target="_blank"><img class="icono" src="../assets/img/iconoig2.png" alt="link instagram"></a>
 	 	           <a href="https://www.facebook.com/olegarioalmacenboutique" target="_blank"><img class="icono" src="../assets/img/iconoface2.png" alt="link facebook"></a>
 	 	           <a href="https://wa.me/5493412573774" target="_blank"><img class="icono" src="../assets/img/logowhats4.png" alt="link whatsapp"></a>
 	 	           <a href="https://goo.gl/maps/AJimKvrT2VSbAgrT6" target="_blank"><img class="icono" src="../assets/img/googlemaps.png" alt="link google map"></a>
-             </div>
+             </div>    
 	 </footer>
 	 </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 </body>
 </html>
