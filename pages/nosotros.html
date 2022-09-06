@@ -4,39 +4,42 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
 	<title>El Almacen Boutique</title>
 </head>
 <body>
-	<div class="nosotrosContainer">
-	 <header>
-	 <div class="logo">
-	 		<a href="../index.html">
-	 		<img class="logo" src="../assets/img/logo.png" alt="logo pagina web">
-	 		</a>
-	 	</div>
-	 	<nav>
-	 		<ul>
-	 			<li>
-	 				<a href="../index.html">INICIO</a>
-	 			</li>
-	 			<li>
-	 				<a href="almacen.html">ALMACEN</a>
-	 			</li>
-	 			<li>
-	 				<a href="bar.html">BAR</a>
-	 			</li>
-	 			<li>
-	 				<a href="#">NOSOTROS</a></li>
-	 			<li>
-	 				<a href="contacto.html">CONTACTO</a>
-	 			</li>
-	 		</ul>
-	 	</nav>
-	 </header>
+	<div class="container-fluid">
+	 <header class="row">
+	 	<div class="col-12 col-lg-12">
+	 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+             <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/img/logo.png" alt="logo pagina web"></a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+             <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+             <a class="nav-link" href="almacen.html">ALMACEN</a>
+             <a class="nav-link" href="bar.html">BAR</a>
+             <a class="nav-link" href="#">NOSOTROS</a>
+             <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </div>
+            </div>
+            </div>
+            </nav>
+        </div>
+    </header>
 	 <main>
-	 	 <div class="gridNosotros">
-	 		  <div><h1 class="titulosNosotros">NOSOTROS</h1></div>
+	 	 <div class="row">
+      <div class="col-12 col-lg-12">
+	 		  <h1 class="titulosNosotros">NOSOTROS</h1>
+	 		</div>
+	 		<div class="col-6 col-lg-6" class="textNosotros">
 	 		  <p class="textNosotros">Somos un bar/almacen de la ciudad de Rosario que nacio en el 2020, tuvimos una inauguracion fallida por la pandemia de ese año, abriendo solo de delivery hasta que pudimos abrir nuestras puertas al publico el 8 de octubre de 2020, pero por suerte la gente siempre nos acompaño.
 	 	    </p>
 	 	    <p class="textNosotros">En nuestro bar/almacen vas a poder encontrar los mejores productos regionales del pais y del mundo, sin tanto proceso industrial. Productos de Tandil, donde se encuentran los mejores quesos y fiambres del pais por su clima, quesos de suipacha donde se encuentra la ruta de los quesos, vinos mendocinos, jamones crudos ibericos español, salsas italianas y muchos productos seleccionados con el objetivo de una experiencia diferente</p>
@@ -57,18 +60,25 @@ El mensaje de Olegario empezó a pasar de boca en boca, y de generación en gene
 Creemos que Olegario sigue vivo a través de sus palabras, porque lo que deja huella no desaparece.
 Gracias por venir, y felicitaciones por ser parte de su revelación. Te invitamos a compartir el mensaje para que siga inspirando a muchos más ¡No la cortes!</p>
 </div>
-<div class="imgVereda">
-<img class="imgVereda" src="../assets/img/vereda.jpg" alt="foto vereda">
-</div><hr>
+<div class="col-6 col-lg-6" class="imgVereda">
+    <img class="imgVereda" src="../assets/img/vereda.jpg" alt="foto vereda">
+</div>
+</div>
+<hr>
 	 </main>
-	 <footer>
-	 	       <div class="footer">
-	 	          <a href="https://instagram.com/olegarioalmacenboutique?igshid=YmMyMTA2M2Y=" target="_blank"><img class="icono" src="../assets/img/iconoig2.png" alt="link instagram"></a>
-	 	          <a href="https://www.facebook.com/olegarioalmacenboutique" target="_blank"><img class="icono" src="../assets/img/iconoface2.png" alt="link facebook"></a>
-	 	          <a href="https://wa.me/5493412573774" target="_blank"><img class="icono" src="../assets/img/logowhats4.png" alt="link whatsapp"></a>
-	 	          <a href="https://goo.gl/maps/AJimKvrT2VSbAgrT6" target="_blank"><img class="icono" src="../assets/img/googlemaps.png" alt="link google map"></a>
-            </div>
+	 <footer class="row">
+	 	    <div class="col-12 col-lg-12">
+	 	          <a class="icono" href="https://instagram.com/olegarioalmacenboutique?igshid=YmMyMTA2M2Y=" target="_blank"><img class="icono" src="../assets/img/iconoig2.png" alt="link instagram"></a>
+	 	           <a href="https://www.facebook.com/olegarioalmacenboutique" target="_blank"><img class="icono" src="../assets/img/iconoface2.png" alt="link facebook"></a>
+	 	           <a href="https://wa.me/5493412573774" target="_blank"><img class="icono" src="../assets/img/logowhats4.png" alt="link whatsapp"></a>
+	 	           <a href="https://goo.gl/maps/AJimKvrT2VSbAgrT6" target="_blank"><img class="icono" src="../assets/img/googlemaps.png" alt="link google map"></a>
+             </div>    
 	 </footer>
-	</div>
+	 </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 </html>
