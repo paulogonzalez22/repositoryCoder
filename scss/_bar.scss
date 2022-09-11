@@ -1,0 +1,37 @@
+.imgBar {
+	width: 100%;
+	height: 450px;
+	display: block;
+	margin: 0 auto;
+}
+
+.textBar{
+	text-align: center;
+	font-family: $tipografiaTitulo;
+	font-size: 25px;
+	background-color: silver;
+	opacity: 1;
+}
+.cartaBar{
+    text-align: center;
+	font-family: $tipografiaTitulo;
+	font-size: 25px;
+	background-color: silver;
+}
+
+.imgQr{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 768px) {
+	.imgBar{
+        height: 200px;
+}
+}
+
+
+

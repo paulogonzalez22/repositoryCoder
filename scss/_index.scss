@@ -1,0 +1,25 @@
+.imgIndex {
+	width: 100%;
+	height: 450px;
+	display: block;
+	margin: 0 auto;
+}
+.textEslogan{
+	text-align: center;
+	font-family: $tipografiaEslogan;
+	background-color: silver;
+	font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+.imgIndex{
+	 width: 100%;
+	 height: 200px;
+	 display: block;
+	 margin: 0 auto;
+	}
+.textEslogan{
+	text-align: center;
+	font-family: $tipografiaEslogan;
+	background-color: silver;
+	font-size: 15px;}
+}
