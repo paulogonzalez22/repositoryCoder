@@ -8,14 +8,22 @@
 
 .textNosotros{
 	font-family: $tipografiaTitulo;
-	font-size: 20px;
-	text-align: justify;
 }
 .titulosNosotros{
-
-	text-align: center;
-	font-family: $tipografiaTitulo;
-	font-size: 25px;
 	background-color: silver;
 	width: 100%;
+}
+@mixin variablesText{
+	font-family: $tipografiaTitulo;
+	font-size: 25px;
+	text-align: center;
+}
+.titulosNosotros{
+	@include variablesText;
+}
+.textNosotros{
+@extend .titulosNosotros;
+	font-size: 20px;
+	text-align: justify;
+	background-color: white;
 }

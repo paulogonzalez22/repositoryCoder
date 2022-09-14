@@ -1,13 +1,12 @@
 #form{
-	font-family: $tipografiaTitulo;
-	font-size: 16px;
 	width:300px;
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
-	background-color: silver;
+	background-color: grey;
 	text-align: left;
-
+	font-size: 16px;
+	font-family: $tipografiaTitulo;
 }
 
 form label{
@@ -52,18 +51,26 @@ textarea{
 	resize:none;
 	display:block;
 }
-
+$estilos: (
+	fondotitulo: silver,
+	alineacion: center,
+	tipofuente: $tipografiaTitulo,
+    tamañofuente: 25px
+	);
+.tituloContacto{
+	background-color: map-get($estilos, fondotitulo);
+	text-align: map-get($estilos, alineacion);
+	font-family: map-get($estilos, $tipografiaTitulo);
+	font-size: map-get($estilos, tamañofuente);
+}
 .infoContacto{
+	color: white;
+	background-color: black;
+	font-size: 20px;
 	text-align: left;
 	font-family: $tipografiaTitulo;
-	font-size: 20px;
 }
-.tituloContacto{
-	background-color: silver;
-	text-align: center;
-	font-family: $tipografiaTitulo;
-	font-size: 25px;
-}
+
 @media only screen and (max-width: 768px) {
 
 .infoContacto{
@@ -75,3 +82,4 @@ textarea{
 	height: auto;
 }					
 }
+
