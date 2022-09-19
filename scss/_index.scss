@@ -10,6 +10,20 @@
 	background-color: silver;
 	font-size: 30px;
 }
+.noticia{
+	width: 100%;
+	height: 400px;
+}
+.eventos{
+	width: 100%;
+	height: 400px;
+}
+.secciones{
+	text-align: center;
+	font-family: $tipografiaTitulo;
+	background-color: silver;
+	font-size: 30px;
+}
 @media only screen and (max-width: 768px) {
 .imgIndex{
 	 width: 100%;
@@ -21,5 +35,20 @@
 	text-align: center;
 	font-family: $tipografiaEslogan;
 	background-color: silver;
-	font-size: 15px;}
+	font-size: 15px;
+}
+.noticia{
+	width: 100%;
+	height: 200px;
+}
+.eventos{
+	width: 100%;
+	height: 200px;
+}
+.secciones{
+	text-align: center;
+	font-family: $tipografiaTitulo;
+	background-color: silver;
+	font-size: 15px;
+}
 }

@@ -4,6 +4,27 @@
   display: block;
   margin: 0 auto; }
 
+li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 15px;
+  font-family: Helvetica;
+  background-color: #b5b5b5;
+  text-align: center; }
+
+ul li {
+  padding-right: 2rem;
+  padding-left: 2rem; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+ul {
+  border: solid 5px #788199;
+  background-color: #788199;
+  text-align: center; }
+
 @media only screen and (max-width: 768px) {
   .logo {
     width: 100px;
@@ -23,6 +44,20 @@
   background-color: silver;
   font-size: 30px; }
 
+.noticia {
+  width: 100%;
+  height: 400px; }
+
+.eventos {
+  width: 100%;
+  height: 400px; }
+
+.secciones {
+  text-align: center;
+  font-family: Helvetica;
+  background-color: silver;
+  font-size: 30px; }
+
 @media only screen and (max-width: 768px) {
   .imgIndex {
     width: 100%;
@@ -32,6 +67,17 @@
   .textEslogan {
     text-align: center;
     font-family: "apple Chancery";
+    background-color: silver;
+    font-size: 15px; }
+  .noticia {
+    width: 100%;
+    height: 200px; }
+  .eventos {
+    width: 100%;
+    height: 200px; }
+  .secciones {
+    text-align: center;
+    font-family: Helvetica;
     background-color: silver;
     font-size: 15px; } }
 
