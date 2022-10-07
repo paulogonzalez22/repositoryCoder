@@ -1,8 +1,24 @@
+.contactoContainer{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas: 
+	"header"
+	"infoContacto"
+	"form"
+	"footer";
+}	
+
+header{
+	grid-area: header;
+}
+
 #form{
-	width:300px;
+	grid-area: form;
+	width:350px;
 	padding:16px;
 	border-radius:10px;
-	margin:auto;
+	margin: 1rem;
 	background-color: grey;
 	text-align: left;
 	font-size: 16px;
@@ -64,11 +80,19 @@ $estilos: (
 	font-size: map-get($estilos, tamañofuente);
 }
 .infoContacto{
+	grid-area: infoContacto;
 	color: white;
 	background-color: black;
 	font-size: 20px;
 	text-align: left;
 	font-family: $tipografiaTitulo;
+	padding-left: 1rem;
+}
+
+footer{
+	grid-area: footer;
+    text-align: center;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -78,7 +102,7 @@ $estilos: (
 
 }
 #form{
-	width: auto;
+	width: 350px;
 	height: auto;
 }					
 }
